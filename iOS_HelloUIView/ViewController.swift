@@ -37,6 +37,13 @@ class ViewController: UIViewController {
         view.viewWithTag(101)?.backgroundColor = .lightGray    // self 可以省略
         // self.view.viewWithTag(101)?.backgroundColor = .lightGray
         
+        // add UIView
+        let viewArea = CGRect(x: 70, y: 550, width: 100, height: 50) // set 位置 長寬
+        let smallRect = UIView(frame: viewArea) // new UIView
+        smallRect.backgroundColor = .purple // set UIView background color
+        view.addSubview(smallRect) // add UIView on Screen
+        // view.viewWithTag(101)?.addSubview(smallRect) // 加入子視圖
+        
     }
 
 
