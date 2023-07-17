@@ -25,6 +25,14 @@ class ViewController: UIViewController {
         // hide uiview, make it invisible
         midRect.isHidden = false
         
+        
+        // self 相當於 java this.
+        view.backgroundColor = UIColor(red: 1, green: 0.9, blue: 0.8, alpha: 1)
+        // self.view.backgroundColor = UIColor(red: 1, green: 0.9, blue: 0.8, alpha: 1)
+        
+        view.backgroundColor = UIColor.orange
+        // self.view.backgroundColor = UIColor.orange
+        
     }
 
 
