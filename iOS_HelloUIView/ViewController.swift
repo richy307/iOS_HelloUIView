@@ -33,6 +33,10 @@ class ViewController: UIViewController {
         view.backgroundColor = UIColor.orange
         // self.view.backgroundColor = UIColor.orange
         
+        // Optional Chaining ?.
+        view.viewWithTag(101)?.backgroundColor = .lightGray    // self 可以省略
+        // self.view.viewWithTag(101)?.backgroundColor = .lightGray
+        
     }
 
 
